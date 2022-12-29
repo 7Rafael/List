@@ -25,7 +25,6 @@ namespace FixList
 
             Console.WriteLine("Enter the employee id that will have salary increase : ");
             int idEmployee = int.Parse(Console.ReadLine());
-            double porcentage;
             Employees emp = list.Find(x => x.Id == idEmployee);
 
             if (emp != null)

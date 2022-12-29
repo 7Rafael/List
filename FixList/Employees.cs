@@ -21,7 +21,7 @@ namespace FixList
         public double increaseSalary(double percentage)
         {
             
-            return Salary += Salary *percentage /100.0;
+            return Salary += Salary * percentage /100.0;
         }
     }
 }
